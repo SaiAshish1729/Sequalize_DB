@@ -1,0 +1,23 @@
+// npm install --save sequelize
+
+// npm install --save pg pg-hstore  // in case of PostgreSQL
+
+// npm install --save-dev sequelize-cli
+
+
+// copy .sequelizerc
+
+// npx sequelize-cli init
+
+// For automatic db creation by command use this  : >>>
+// npx sequelize-cli db:create
+
+// create table
+// npx sequelize-cli model:generate --name user --attributes userType:ENUM,firstname:string,lastname:string,email:string,password:string
+
+// run migrate
+// npx sequelize-cli db:migrate
+
+// undo migration
+// npx sequelize-cli db:migrate:undo    or npx sequelize-cli db:migrate:undo all
+
